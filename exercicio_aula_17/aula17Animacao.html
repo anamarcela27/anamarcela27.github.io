@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Animacao
+	</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.box{
+			position: relative;
+			left: 10px;
+			top: 10px;
+			width: 50px;
+			height: 50px;
+			background: white;
+			/*
+			animation-iteration-count: 4;
+			animation-delay: 3s;
+			animation-name: minhaAnimaçao;
+			animation-duration: 8s;
+			*/
+			animation: minhaAnimaçao 5s 3s 4 alternate;
+		}
+		.box1{
+			position: relative;
+			left: 10px;
+			top: 10px;
+			width: 50px;
+			height: 50px;
+			background: white;
+			animation-iteration-count: 4;
+			animation-name: minhaAnimaçao1;
+			animation-duration: 8s;
+		}
+		.box2{
+			position: relative;
+			left: 10px;
+			top: 10px;
+			width: 50px;
+			height: 50px;
+			background: white;
+			animation-delay: 3s;
+			animation-iteration-count: 4;
+			animation-name: minhaAnimaçao;
+			animation-duration: 8s;
+		}
+		.box3{
+			position: relative;
+			left: 10px;
+			top: 10px;
+			width: 50px;
+			height: 50px;
+			background: white;
+			animation-iteration-count: 4;
+			animation-name: minhaAnimaçao1;
+			animation-duration: 8s;
+		}
+		.box4{
+			position: relative;
+			left: 10px;
+			top: 10px;
+			width: 50px;
+			height: 50px;
+			background: white;
+			animation-delay: 3s;
+			animation-iteration-count: 4;
+			animation-name: minhaAnimaçao;
+			animation-duration: 8s;
+		}
+		@keyframes minhaAnimaçao{
+			from{
+				left: 10px;
+				margin: 2px;
+			}
+			to{
+				left: 500px;
+				background: purple;
+				border-radius: 100px;
+			}
+		}
+		@keyframes minhaAnimaçao1{
+			from{
+				left: 10px;
+				margin: 2px;
+			}
+			to{
+				left: 600px;
+				background: green;
+				border-radius: 100px;
+			}
+		}
+	</style>
+</head>
+	<body>
+	<div class="box">
+		
+	</div>
+	<div class="box1">
+		
+	</div>
+	<div class="box2">
+		
+	</div>
+	<div class="box3">
+		
+	</div>
+	<div class="box4">
+		
+	</div>
+	</body>
+</html>

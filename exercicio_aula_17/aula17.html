@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula 17</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.box{
+			position: relative;
+			left: 10px;
+			right: 10px;
+			width: 100px;
+			height: 100px;
+			background: red;
+		}
+		.box2{
+			position: relative;
+			left: 10px;
+			right: 10px;
+			width: 100px;
+			height: 100px;
+			background: red;
+			/*
+			animation-name: minha animaçao;
+			animation-duration: 5s;
+			*/
+		}
+		
+		div:hover{
+			border: solid 5px black;
+
+		}
+		.box2:hover{
+			border: solid 5px black;
+			-moz-transition: border 3s 2s;
+			
+
+		}
+		
+		p{
+			color: white;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<p>sem transition</p>
+	</div>
+	<div class="box2">
+		<p>com transition</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Aula 18
+	</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			background: green;
+		}
+		p{
+			color: white;
+		}
+		@media screen and (max-width: 900px){
+			body{ background: blue }
+			div.telaCheia {
+				width: 35px;
+				
+			}
+		}
+		/*maior que 900px */
+		@media screen and (min-width: 900px){
+			body{ background: orange }
+			div.telaCheia {
+				display: inline-block;
+			}
+			/* Menu 1 <br/> Menu 2 <br/> Menu 3 <br/> Menu 4 <br/> Menu 5 */
+		}
+	</style>
+</head>
+<body>
+		<div> <p> Um, dois, testando... <p/></div>
+			
+			<div class="telaCheia"><p>Menu 1 Menu 2 Menu 3 Menu 4 Menu 5<p></div>
+			</p>
+		
+			
+</body>
+</html>
